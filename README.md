@@ -6,7 +6,7 @@ Code exercise for Platform Science. Application assigns shipment destinations to
 - Python 3.9
 
 ## Instructions
-- Clone the application: `git clone https://github.com/deep-proj/shipment-routing.git'
+- Clone the application: `git clone https://github.com/deep-proj/shipment-routing.git`
 - Run `pip install -r requirements.txt` to install relevant packages
 - Run `python main.py files/mock_address_data.csv files/mock_driver_data.csv`
     - *Note some limitations with passing in files. The application will only run if the address data file is passed in first. Also, note that the csv are  formatted in a specific way. For purposes of the exercise, files must be formatted similarly. At the very least, they must have a `first_name` and `last_name` field for drivers, and a `street_name` field for addresses.
