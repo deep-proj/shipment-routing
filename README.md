@@ -22,7 +22,6 @@ I first put all my code into `main.py` as a proof of concept to get everything w
 For purposes of the exercise, I worked under the assumption that the data passed in would be clean, to make it easier to handle. So there's no data validation, or any flexibility in how the files are handled.
 
 ## Limitations
-- Currently only reads from and parses csv files
 - For purposes of the exercise, the files are organized cleanly. So, there no handling of malformed data or files that don't present the data in the correct way.
 - The addresses file must have more or equal to the number of rows in the drivers file. This does not currently handle a scenario where there are more addresses than drivers.
 - No testing
@@ -32,5 +31,5 @@ For purposes of the exercise, I worked under the assumption that the data passed
 - Move solver functionality out of `main.py` and into a separate file
 - Clean up code to meet Python conventions
 - Add testing to have more confidence that the code is behaving correctly.
-- Add flexibility for handling different types of files
+- Add flexibility for handling additional types of files
 - Resolve issue of what to do if there are more drivers than addresses
