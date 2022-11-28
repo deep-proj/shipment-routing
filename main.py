@@ -6,8 +6,8 @@ from lib.scores_matrix import suitability_scores_matrix
 
 def main():
     """Calculates the driver assignments based on SS scores and returns results."""
-    drivers = parse_file(open(sys.argv[-2], encoding="UTF-8"))
-    addresses = parse_file(open(sys.argv[-1], encoding="UTF-8"))
+    drivers = parse_file(open(sys.argv[-1], encoding="UTF-8"))
+    addresses = parse_file(open(sys.argv[-2], encoding="UTF-8"))
     ss_scores = suitability_scores_matrix(drivers, addresses)
     num_drivers = len(ss_scores)
     num_addresses = len(ss_scores[0])
