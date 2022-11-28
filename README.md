@@ -4,6 +4,12 @@ Code exercise for Platform Science. Application assigns shipment destinations to
 
 ## Dependencies
 - Python 3.9
+    - If for some reason you don't have Python installed on your machine, you can dowload from:
+        - https://www.python.org/downloads/ 
+        - or 
+        - if you use homebrew, run:
+        `brew install python`
+        
 
 ## Instructions
 - Clone the application: `git clone https://github.com/deep-proj/shipment-routing.git`
