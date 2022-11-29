@@ -31,6 +31,7 @@ For purposes of the exercise, I worked under the assumption that the data passed
 - For purposes of the exercise, the files are organized cleanly. So, there no handling of malformed data or files that don't present the data in the correct way.
 - The addresses file must have more or equal to the number of rows in the drivers file. This does not currently handle a scenario where there are more addresses than drivers.
 - No testing
+- Not the most performant code. Will struggle to run efficiently with larger files.
 - Likely numerous other scenarios and edge cases
 
 ## Next Steps
@@ -39,3 +40,4 @@ For purposes of the exercise, I worked under the assumption that the data passed
 - Add testing to have more confidence that the code is behaving correctly.
 - Add flexibility for handling additional types of files
 - Resolve issue of what to do if there are more drivers than addresses
+- Improve functionality to handle larger file sizes
