@@ -39,5 +39,5 @@ For purposes of the exercise, I worked under the assumption that the data passed
 - Clean up code to meet Python conventions
 - Add testing to have more confidence that the code is behaving correctly.
 - Add flexibility for handling additional types of files
-- Resolve issue of what to do if there are more drivers than addresses
+- Resolve issue of what to do if there are more addresses than drivers.
 - Improve functionality to handle larger file sizes
